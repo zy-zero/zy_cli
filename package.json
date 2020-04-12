@@ -1,5 +1,5 @@
 {
-  "name": "zzero_cli",
+  "name": "zo_cli",
   "version": "0.0.1",
   "description": "zy_test cli",
   "main": "index.js",
@@ -11,6 +11,9 @@
     "zy",
     "test"
   ],
+  "bin": {
+    "zzero": "bin/zzero"
+  },
   "author": "zhangyu",
   "license": "MIT",
   "dependencies": {
